@@ -1,0 +1,6 @@
+/workspace/AI-HDL/build/fsm/wave.v:1: warning: timescale for wave inherited from another file.
+/workspace/AI-HDL/lab1/fsm/src/double_buffer_ctrl_tb.sv:1: ...: The inherited timescale is here.
+warning: Some design elements have no explicit time unit and/or
+       : time precision. This may cause confusing timing results.
+       : Affected design elements are:
+       :   -- module double_buffer_ctrl declared here: /workspace/AI-HDL/lab1/fsm/src/double_buffer_ctrl.v:2

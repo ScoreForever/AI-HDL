@@ -1,0 +1,2 @@
+/workspace/AI-HDL/lab1/cordic/src/cordic.v:2: warning: timescale for cordic inherited from another file.
+/workspace/AI-HDL/build/extended/angles.sv:1: ...: The inherited timescale is here.

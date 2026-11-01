@@ -1,0 +1,2 @@
+/workspace/AI-HDL/lab1/fsm/src/double_buffer_ctrl.v:2: warning: timescale for double_buffer_ctrl inherited from another file.
+/workspace/AI-HDL/build/extended/fsm_grid.sv:1: ...: The inherited timescale is here.

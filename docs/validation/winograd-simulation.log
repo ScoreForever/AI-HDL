@@ -1,0 +1,27 @@
+VCD info: dumpfile wave.vcd opened for output.
+                   0 en=0, r1_res=          0, r2_res=          0, vld=0
+                  20 en=1, r1_res=          0, r2_res=          0, vld=0
+                  45 en=1, r1_res=        160, r2_res=       -210, vld=1
+[Case     0] PASS at 46000: Expected r1_res=        160, r2_res=       -210; Got r1_res=        160, r2_res=       -210
+                  55 en=1, r1_res=          0, r2_res=          0, vld=1
+[Case     1] PASS at 56000: Expected r1_res=          0, r2_res=          0; Got r1_res=          0, r2_res=          0
+                  65 en=1, r1_res=    1769220, r2_res=   -1993901, vld=1
+[Case     2] PASS at 66000: Expected r1_res=    1769220, r2_res=   -1993901; Got r1_res=    1769220, r2_res=   -1993901
+                  75 en=1, r1_res= 1073676289, r2_res= 1073676289, vld=1
+[Case     3] PASS at 76000: Expected r1_res= 1073676289, r2_res= 1073676289; Got r1_res= 1073676289, r2_res= 1073676289
+                  85 en=1, r1_res= 1073741824, r2_res= 1073741824, vld=1
+[Case     4] PASS at 86000: Expected r1_res= 1073741824, r2_res= 1073741824; Got r1_res= 1073741824, r2_res= 1073741824
+                  95 en=1, r1_res=          3, r2_res=          3, vld=1
+[Case     5] PASS at 96000: Expected r1_res=          3, r2_res=          3; Got r1_res=          3, r2_res=          3
+                 105 en=1, r1_res=          2, r2_res=         -2, vld=1
+[Case     6] PASS at 106000: Expected r1_res=          2, r2_res=         -2; Got r1_res=          2, r2_res=         -2
+                 115 en=1, r1_res=  145063936, r2_res=   93028352, vld=1
+[Case     7] PASS at 116000: Expected r1_res=  145063936, r2_res=   93028352; Got r1_res=  145063936, r2_res=   93028352
+                 120 en=0, r1_res=  145063936, r2_res=   93028352, vld=1
+                 125 en=0, r1_res= 2147483646, r2_res= 2147483646, vld=1
+[Case     8] PASS at 126000: Expected r1_res= 2147483646, r2_res= 2147483646; Got r1_res= 2147483646, r2_res= 2147483646
+                 135 en=0, r1_res=-2147483648, r2_res=-2147483648, vld=1
+[Case     9] PASS at 136000: Expected r1_res=-2147483648, r2_res=-2147483648; Got r1_res=-2147483648, r2_res=-2147483648
+                 145 en=0, r1_res=-2147483648, r2_res=-2147483648, vld=0
+ALL PASS: Winograd, 10 cases
+/workspace/AI-HDL/lab1/winograd/src/winograd_1d_tb.v:146: $finish called at 220000 (1ps)

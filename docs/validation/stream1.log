@@ -1,0 +1,3 @@
+VCD info: dumpfile stream1.vcd opened for output.
+ALL PASS: 1D streaming 2400 cycles, 1861 checked outputs
+/workspace/AI-HDL/build/extended/stream1.sv:22: $finish called at 24006000 (1ps)

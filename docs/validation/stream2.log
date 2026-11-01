@@ -1,0 +1,3 @@
+VCD info: dumpfile stream2.vcd opened for output.
+ALL PASS: 2D streaming 1200 cycles, 928 checked outputs
+/workspace/AI-HDL/build/extended/stream2.sv:22: $finish called at 12006000 (1ps)

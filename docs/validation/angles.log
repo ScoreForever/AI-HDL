@@ -1,0 +1,2 @@
+ALL PASS: CORDIC 1568 vectors, max absolute error 1
+/workspace/AI-HDL/build/extended/angles.sv:19: $finish called at 100355000 (1ps)

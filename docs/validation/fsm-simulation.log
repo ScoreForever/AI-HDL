@@ -1,0 +1,6 @@
+VCD info: dumpfile wave.vcd opened for output.
+PASS: load latency=3 compute latency=8
+PASS: reset during an active job
+PASS: load latency=8 compute latency=3
+ALL PASS
+/workspace/AI-HDL/lab1/fsm/src/double_buffer_ctrl_tb.sv:203: $finish called at 980000 (1ps)

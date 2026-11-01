@@ -1,0 +1,39 @@
+PASS: load latency=1 compute latency=1
+PASS: load latency=1 compute latency=2
+PASS: load latency=1 compute latency=3
+PASS: load latency=1 compute latency=5
+PASS: load latency=1 compute latency=8
+PASS: load latency=1 compute latency=13
+PASS: load latency=2 compute latency=1
+PASS: load latency=2 compute latency=2
+PASS: load latency=2 compute latency=3
+PASS: load latency=2 compute latency=5
+PASS: load latency=2 compute latency=8
+PASS: load latency=2 compute latency=13
+PASS: load latency=3 compute latency=1
+PASS: load latency=3 compute latency=2
+PASS: load latency=3 compute latency=3
+PASS: load latency=3 compute latency=5
+PASS: load latency=3 compute latency=8
+PASS: load latency=3 compute latency=13
+PASS: load latency=5 compute latency=1
+PASS: load latency=5 compute latency=2
+PASS: load latency=5 compute latency=3
+PASS: load latency=5 compute latency=5
+PASS: load latency=5 compute latency=8
+PASS: load latency=5 compute latency=13
+PASS: load latency=8 compute latency=1
+PASS: load latency=8 compute latency=2
+PASS: load latency=8 compute latency=3
+PASS: load latency=8 compute latency=5
+PASS: load latency=8 compute latency=8
+PASS: load latency=8 compute latency=13
+PASS: load latency=13 compute latency=1
+PASS: load latency=13 compute latency=2
+PASS: load latency=13 compute latency=3
+PASS: load latency=13 compute latency=5
+PASS: load latency=13 compute latency=8
+PASS: load latency=13 compute latency=13
+PASS: reset during an active job
+ALL PASS: FSM 36 latency pairs and active reset
+/workspace/AI-HDL/build/extended/fsm_grid.sv:237: $finish called at 15500000 (1ps)

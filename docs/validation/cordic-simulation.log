@@ -1,0 +1,35 @@
+VCD info: dumpfile wave.vcd opened for output.
+                   0      x      x          0
+                  62  32000     -1          0
+                1000  32000     -1  536870912
+                1062  22627  22628  536870912
+[RES, PASS] At time 107000: Expected COS=22627, SIN=22627, get COS=22627, SIN=22628
+                2000  22627  22628  178956970
+                2062  30909   8283  178956970
+[RES, PASS] At time 207000: Expected COS=30910, SIN=8282, get COS=30909, SIN=8283
+                3000  30909   8283  357913941
+                3062  27712  16000  357913941
+[RES, PASS] At time 307000: Expected COS=27713, SIN=16000, get COS=27712, SIN=16000
+                4000  27712  16000  715827882
+                4062  16000  27712  715827882
+[RES, PASS] At time 407000: Expected COS=16000, SIN=27713, get COS=16000, SIN=27712
+                5000  16000  27712  894784853
+                5062   8283  30909  894784853
+[RES, PASS] At time 507000: Expected COS=8282, SIN=30910, get COS=8283, SIN=30909
+                6000   8283  30909 1073741824
+                6062      1  32000 1073741824
+[RES, PASS] At time 607000: Expected COS=0, SIN=32000, get COS=1, SIN=32000
+                7000      1  32000 2147483648
+                7062 -32000      1 2147483648
+[RES, PASS] At time 707000: Expected COS=-32000, SIN=0, get COS=-32000, SIN=1
+                8000 -32000      1 3221225472
+                8062     -1 -32000 3221225472
+[RES, PASS] At time 807000: Expected COS=0, SIN=-32000, get COS=-1, SIN=-32000
+                9000     -1 -32000 4283036831
+                9062  31995   -559 4283036831
+[RES, PASS] At time 907000: Expected COS=31995, SIN=-558, get COS=31995, SIN=-559
+               10000  31995   -559  680036488
+               10062  17429  26837  680036488
+[RES, PASS] At time 1007000: Expected COS=17428, SIN=26837, get COS=17429, SIN=26837
+ALL PASS: CORDIC, 10 cases
+/workspace/AI-HDL/lab1/cordic/src/cordic_tb.sv:117: $finish called at 1100000 (10ps)

@@ -1,0 +1,17 @@
+{
+  "source": "https://aiarchpku.com/2026Fall/project/lab1_files.zip",
+  "download_date": "2026-11-01",
+  "archive_sha256": "837a7b738664d6616db57f7cc345a8d875272596890c5c59eaaaca46c8fca814",
+  "unmodified_files": {
+    "lab1/cordic/src/cordic_tb.sv": "ffd76d2232e93330c6d5e1867214ab2fbbe21188a0f0e59dccfd47b1f966cd27",
+    "lab1/cordic/run/Makefile": "c568629a01b3e00998ed5d4ef5bcf9d59b67676f90577b7dc1e4a828d395f32d",
+    "lab1/cordic/run/cordic.f": "135356d0167e312b544a4c04de3a703cb4fe71aab13d37c7928839098ccd56f7",
+    "lab1/fsm/src/double_buffer_ctrl_tb.sv": "66a20f0339c8048609c1757bcb7178998a6a91e3a7b9befd788cbeec2a58d750",
+    "lab1/fsm/run/Makefile": "be19af4cd95143dbdb08cffae4b4fbf140589241fb0e59a36692f39eb3c29b9b",
+    "lab1/fsm/run/fsm.f": "a9f7219dcd2b556f91286c7f44b87a43c2d1d225abf97699868d2a42e989defe",
+    "lab1/fsm/README.md": "5225cf8763bac3e5638f580072e80228f6ecf272d96789d19b181b41400a29f8",
+    "lab1/winograd/run/Makefile": "f4dfdc7fcd2e8de26d447ca655bf2a34a571df5a1e85f644e901a40b08f95d3a",
+    "lab1/winograd/run/winograd.f": "aa50df4a930eaa1396770e881e3ba176c983ed7a5be0f751ed92b3199b5b564e",
+    "lab1/winograd/src/winograd_1d_tb.v": "7cc330b427d5033cd94e5b936e57202bdec51eae2cb3ab8cf26a03a4ea4037e0"
+  }
+}

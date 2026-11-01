@@ -1,0 +1,9 @@
+/workspace/AI-HDL/build/winograd/wave.v:1: warning: timescale for wave inherited from another file.
+/workspace/AI-HDL/lab1/winograd/src/winograd_1d_tb.v:1: ...: The inherited timescale is here.
+warning: Some design elements have no explicit time unit and/or
+       : time precision. This may cause confusing timing results.
+       : Affected design elements are:
+       :   -- module input_transform declared here: /workspace/AI-HDL/lab1/winograd/src/input_transform.v:2
+       :   -- module output_transform declared here: /workspace/AI-HDL/lab1/winograd/src/output_transform.v:1
+       :   -- module weight_transform declared here: /workspace/AI-HDL/lab1/winograd/src/weight_transform.v:2
+       :   -- module winograd_1d declared here: /workspace/AI-HDL/lab1/winograd/src/winograd_1d.v:1

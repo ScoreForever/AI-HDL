@@ -1,0 +1,2 @@
+/workspace/AI-HDL/lab1/winograd_2d/src/winograd_2d.v:4: warning: timescale for winograd_2d inherited from another file.
+/workspace/AI-HDL/build/extended/stream2.sv:1: ...: The inherited timescale is here.
