@@ -131,7 +131,7 @@ $$V=B^TdB,\quad U=(2G)w(2G)^T,\quad Y=A^T(U\odot V)A/4.$$
 
 ## 2026 年 11 月 7 日复核
 
-本轮从已有 Git 提交 `98cd5137bd0405a665b5b67dcfbb0fa6da6e9a4d` 继续工作，重新读取课程网页、交接说明和七个 RTL 文件，并重新下载官方文件包。全部十个保留的课程文件（TB、run 文件及 FSM README）的 SHA256 与最新下载内容一致。重新执行全部课程和扩展仿真，得到下表结果；本轮未修改 RTL 或课程 TB。新增 `scripts/verify_vcs.py`，用于在课程服务器的新目录中执行原始 Makefile 并检查日志，但当前无 VCS/Verdi、VPN 和 SSH 凭据，尚未实际运行服务器仿真。
+本轮从已有 Git 提交 已有版本 继续工作，重新读取课程网页、交接说明和七个 RTL 文件，并重新下载官方文件包。全部十个保留的课程文件（TB、run 文件及 FSM README）的 SHA256 与最新下载内容一致。重新执行全部课程和扩展仿真，得到下表结果；本轮未修改 RTL 或课程 TB。新增 `scripts/verify_vcs.py`，用于在课程服务器的新目录中执行原始 Makefile 并检查日志，但当前无 VCS/Verdi、VPN 和 SSH 凭据，尚未实际运行服务器仿真。
 
 ## 实际结果
 

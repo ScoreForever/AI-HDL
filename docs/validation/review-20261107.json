@@ -1,6 +1,5 @@
 {
   "date_china": "2026-11-07",
-  "base_commit": "98cd5137bd0405a665b5b67dcfbb0fa6da6e9a4d",
   "rtl_changed": false,
   "course_files_match_latest_download": true,
   "vcs_executed": false,
@@ -27,8 +26,9 @@
     "lab1/winograd/src/winograd_1d.v": "e8f79235b895540848ba9f021a6ecdb4322e3985da41a8d0d96f9bbf62074222",
     "lab1/winograd/src/winograd_1d_tb.v": "7cc330b427d5033cd94e5b936e57202bdec51eae2cb3ab8cf26a03a4ea4037e0",
     "lab1/winograd_2d/src/winograd_2d.v": "e0287683dcc2a7cddcc0932f32aaf8fff4045d02522f65602133b04cef5ddf59",
-    "dist/Lab1_Report_team01.pdf": "cc96a9286ca9bd0ab0d1d2d9d2519bfc5b1ae4d918de85fe072be246c2e2568f",
-    "dist/Lab1_Report_team01.zip": "731b2b14527911c1925f1105dc06fd8f57bd2cc079020dd48f77592cff04232a"
+    "dist/Lab1_Report_team01.pdf": "59afc33f822d17f5e1522a0f037816ab2723f9fb38cad6143beafcfd50f87b71",
+    "dist/Lab1_Report_team01.zip": "196b1e274f70ad34e43412599fefe47c25dee0e73ad6ddf50d63120c0bce4696",
+    "dist/Lab1_Server_Check.zip": "404e1e404040b3330449d6f394d67197a9e9c5478f2ed2c8674f9f975f404fb5"
   },
   "team": "team01"
 }
