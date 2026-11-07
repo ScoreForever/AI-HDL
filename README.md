@@ -1,4 +1,8 @@
+公开版本已移除成员姓名、学号和服务器账号。服务器复验请下载 [专用复验包](dist/Lab1_Server_Check.zip)，按 [服务器复验步骤](docs/服务器复验步骤.md) 操作；该包不能作为课程提交包。
+
 # AI-HDL：Lab 1
+
+2026-11-07 已重新核对官方文件并复跑全部测试。最新下载与提交操作见 [最终交付与操作步骤](docs/最终交付与操作步骤.md)。
 
 课程：[Lab 1 作业说明](https://aiarchpku.com/2026Fall/project/la1.html)。
 已实现三项必做任务和 2D Winograd Bonus。说明与报告均为中文。
@@ -7,18 +11,18 @@
 
 不需要访问云环境目录。在 GitHub 仓库首页可以直接打开下面的文件：
 
-- [实验报告 PDF](dist/Lab1_Report_teamxx.pdf)：查看设计、测试结果和波形。文件页可预览，也可点击 **Download raw file** 下载。
-- [提交包 ZIP](dist/Lab1_Report_teamxx.zip)：打开文件页后点击 **Download raw file** 下载。只包含 PDF 和七个实现 RTL，不含 TB 或仿真临时文件。
+- [实验报告 PDF](dist/Lab1_Report_team01.pdf)：查看设计、测试结果和波形。文件页可预览，也可点击 **Download raw file** 下载。
+- [提交包 ZIP](dist/Lab1_Report_team01.zip)：打开文件页后点击 **Download raw file** 下载。只包含 PDF 和七个实现 RTL，不含 TB 或仿真临时文件。
 - [中文交接说明](docs/交接说明.md)：先看“提交人仍需完成”和“服务器交接”，包含后续操作和原课程服务器命令。
 
 如要下载全部源码与脚本，点击仓库首页 **Code → Download ZIP**，解压后阅读本 README。整个仓库的下载包用于开发，课程提交应使用 `dist/` 内专门生成的作业包。
 
-当前文件使用占位组号 `teamxx`。不要只改 ZIP 文件名：应确认真实组号及成员信息，按下文用 `python3 scripts/package.py --team team07` 重新生成报告和压缩包（将 team07 换成真实编号）。服务器 VCS/Verdi 复验尚未执行，组长上传课程网也尚未完成。
+当前文件已填写 team01 ，公开版不含个人信息。若修改报告，可用 `python3 scripts/package.py --team team01` 重新生成报告和压缩包。服务器 VCS/Verdi 复验尚未执行，组长上传课程网也尚未完成。
 
 ## 文件位置与本地复现
 
 - [交接说明：已完成、待完成、服务器复验与提交步骤](docs/交接说明.md)
-- [实验报告源稿](docs/Lab1_Report_teamxx.md)
+- [实验报告源稿](docs/Lab1_Report_team01.md)
 - [已有验证日志](docs/validation/README.md)
 - 源码在 `lab1/`，复现脚本在 `scripts/`，报告 PDF 和提交压缩包在 `dist/`。
 
@@ -31,7 +35,7 @@ python3 scripts/verify.py
 python3 scripts/extended.py
 python3 scripts/plot_waves.py
 bash scripts/setup_report.sh
-python3 scripts/package.py  # 默认 teamxx；真实组号通过 --team team07 等传入
+python3 scripts/package.py  # 默认 team01；真实组号通过 --team team01 等传入
 ```
 
 安装使用 Debian 官方 HTTPS 软件包和 SHA256 校验，不需要管理员权限。

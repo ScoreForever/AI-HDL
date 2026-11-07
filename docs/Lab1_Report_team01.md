@@ -1,8 +1,8 @@
 ---
 title: "Lab 1 实验报告"
 subtitle: "1D Winograd、CORDIC、双缓冲 FSM 与 2D Winograd Bonus"
-author: "小组：teamxx"
-date: "2026 年 11 月 1 日"
+author: "小组：team01"
+date: "2026 年 11 月 7 日"
 lang: zh-CN
 ---
 
@@ -12,7 +12,8 @@ lang: zh-CN
 
 本次使用 Codex 在云环境中生成 RTL、检查接口和定点数位宽、编写独立验证驱动，并实际运行 Icarus Verilog 12.0 仿真。课程给定 Testbench、Golden Model、测试向量及检查条件保持原样。使用其原有 `NO_FSDB` 开关关闭专用波形调用，额外的顶层波形模块导出 VCD。**本报告的测试结果来自当前云环境，尚未在课程服务器 VCS/Verdi 上复验，未进行综合或上板。**
 
-小组编号暂用 teamxx；提交前由小组确认真实编号及成员信息。报告记录本次 AI 辅助工作，不代表尚未发生的人工复核或服务器操作。
+小组：team01。公开版本不包含成员姓名、学号；正式提交时请仅在本地补充。报告记录实际 AI 辅助工作，不代表尚未发生的人工复核或服务器操作。
+
 
 # 1D Winograd 设计
 
@@ -128,6 +129,10 @@ $$V=B^TdB,\quad U=(2G)w(2G)^T,\quad Y=A^T(U\odot V)A/4.$$
 
 # 验证结果与复现
 
+## 2026 年 11 月 7 日复核
+
+本轮从已有 Git 提交 已有版本 继续工作，重新读取课程网页、交接说明和七个 RTL 文件，并重新下载官方文件包。全部十个保留的课程文件（TB、run 文件及 FSM README）的 SHA256 与最新下载内容一致。重新执行全部课程和扩展仿真，得到下表结果；本轮未修改 RTL 或课程 TB。新增 `scripts/verify_vcs.py`，用于在课程服务器的新目录中执行原始 Makefile 并检查日志，但当前无 VCS/Verdi、VPN 和 SSH 凭据，尚未实际运行服务器仿真。
+
 ## 实际结果
 
 | 检查 | 执行范围 | 结果 |
@@ -168,14 +173,14 @@ python3 scripts/verify.py
 python3 scripts/extended.py
 python3 scripts/plot_waves.py
 bash scripts/setup_report.sh
-python3 scripts/package.py --team teamxx
+python3 scripts/package.py --team team01
 ```
 
 工具安装采用 Debian 官方 HTTPS 软件包与官方索引 SHA256 校验，解压到 checkout 之外的 `/workspace/tools/iverilog`。保留 TLS 与文件校验。仿真脚本保存编译日志、运行日志、VCD；课程 TB 的 FSDB 条件编译关闭方式由原文件支持。编译存在无显式 timescale 的警告；RTL 不含延迟语句，不影响本次功能检查，不据此声称综合时序满足目标。
 
 # AI 生成、设计决策与审核过程
 
-本次从课程空壳接口开始，由 Codex 阅读作业网页、运行 Makefile 和全部公开 TB，归纳必须保持的模块名、端口、采样时序、精度及资源约束。随后生成 RTL，并在本机执行测试，根据实际结果决定后续验证范围。
+上一轮（2026 年 11 月 1 日，按仓库交接记录）从课程空壳接口开始，由 Codex 阅读作业网页、运行 Makefile 和全部公开 TB，归纳必须保持的模块名、端口、采样时序、精度及资源约束。随后生成 RTL，并在本机执行测试，根据实际结果决定后续验证范围。
 
 关键设计决策包括：将 1D 权重变换扩大 2 倍，避免奇数权重提前右移；显式扩展有符号位宽；将三沿有效位与数据流水对齐；CORDIC 使用全象限预处理、16 个守护小数位和编译期常量表；FSM 分解独立引擎状态并记录缓冲区整个生命周期，而不是把加载与计算串行为单一顺序流程。
 
@@ -187,7 +192,7 @@ python3 scripts/package.py --team teamxx
 
 提交 ZIP 只含本 PDF 与七个实现 `.v` 文件：1D 四个、CORDIC 一个、FSM 一个、2D Bonus 一个；按任务目录组织。课程 TB、run、仿真输出和脚本仅留仓库复查，不打包提交。
 
-尚待提交人完成：确认并替换真实小组编号及成员信息；在课程 VCS/Verdi 环境复验并补充证据（若课程要求专用波形）；人工检查 PDF；由组长上传课程网。当前未提交任何文件到课程网。
+尚待提交人完成：复核已填写的小组编号及成员信息；在课程 VCS/Verdi 环境复验并补充证据（若课程要求专用波形）；人工检查 PDF；由组长上传课程网。当前未提交任何文件到课程网。
 
 服务器内网网络条件尚不具备，因此尚无服务器复验结果。详细连接信息、环境要求、原课程 `make rerun` 命令和排障边界写在仓库 `docs/交接说明.md`。私钥及其他凭据未写入交付物。
 
