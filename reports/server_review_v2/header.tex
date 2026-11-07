@@ -1,0 +1,6 @@
+\usepackage{float}
+\floatplacement{figure}{H}
+\newcommand{\serverfigure}[2]{%
+\begin{figure}[H]\centering
+\IfFileExists{figures/#1}{\includegraphics[width=\linewidth,height=0.72\textheight,keepaspectratio]{figures/#1}}{\fbox{\parbox{0.9\linewidth}{\textbf{原图待嵌入（非最终提交版）}\\已阅读聊天截图，但未收到可读取的原图文件。本位置不使用生成图片代替真实证据。\\预留文件名：\texttt{\detokenize{#1}}}}}
+\caption{#2}\end{figure}}

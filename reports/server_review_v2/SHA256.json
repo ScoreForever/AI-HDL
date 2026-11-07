@@ -1,0 +1,19 @@
+{
+  "report.tex": "9e6b2db3bb92c26d4b22518f497dbc6debe469882aade83b5dc088c69124df67",
+  "report.md": "0be5dc4079cf75370eda2c10c2f837face43a179a6d15c4aa1abc3234b91a17c",
+  "header.tex": "3566ba70f17fa2e3988fe2b0fedd53c71da2310b67c593ea569a9ff424e3a474",
+  "build.sh": "dfd33bc56a7c0a10de4b9fef462b9db3657b3fd48dd4b024f4e319564fcc3978",
+  "package_submission.py": "0adb25e953ef88a0d6b1df02bba469624f51f2b8b2eb334761d03d79d445c653",
+  "README.md": "21dbde7ce544afce123edde81ff2cde9ae5ecc55c04b67b757582a92d315d62c",
+  "Lab1_Report_team01.pdf": "6111898a2422d7950dcb5e8c0c248ea98e933c4c98d298f39fe92666ec8ce28d",
+  "figures/fsm.png": "b9a36e4bb845e18d34d999d663485768cfbb12056241f7088ce0c8a563e01c44",
+  "figures/winograd.png": "dc961cd33b461d85445296746c51d8d7c41b99c47312d6f9f7fbf7227862d0f8",
+  "figures/cordic.png": "4f431670d1de4700a383a4f5c0a1cd910f1f75edd74aa5bad54c11fb7124af49",
+  "rtl/winograd/src/weight_transform.v": "7a1bc6f1e90df542eb0566e0532cf431b86968a2780bb006633216d3b99df23f",
+  "rtl/winograd/src/input_transform.v": "3e91085345246e86914aeaa11bc0a17f6609e7d4e2b699c6ad73e3d3cb318a75",
+  "rtl/winograd/src/winograd_1d.v": "e8f79235b895540848ba9f021a6ecdb4322e3985da41a8d0d96f9bbf62074222",
+  "rtl/winograd/src/output_transform.v": "64928c29baf1b6fa059c6dd06216829926052acec996ea7bb90fc61e16a78b0e",
+  "rtl/cordic/src/cordic.v": "1d251245b04a4dd00d8cc98f8b95d713afb924873eabb6e937a4aabfc06b7bf4",
+  "rtl/fsm/src/double_buffer_ctrl.v": "1a50e2e508c1ba98169600188915e5d16aa540732c5ffa6a180a6a07c0144fe5",
+  "rtl/winograd_2d/src/winograd_2d.v": "e0287683dcc2a7cddcc0932f32aaf8fff4045d02522f65602133b04cef5ddf59"
+}
