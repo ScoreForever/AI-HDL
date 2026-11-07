@@ -5,8 +5,6 @@
   "course_files_match_latest_download": true,
   "vcs_executed": false,
   "sha256": {
-    "dist/Lab1_Report_teamxx.pdf": "c066045866e4bef64ca6a0600fdfaab02a930feaf034bdf3066c3777991e322a",
-    "dist/Lab1_Report_teamxx.zip": "0c0de5fba8f3ec41827f7d1b2834a463a5c4ec330ef78bf91b25e439b4392d2d",
     "docs/validation/angles.compile.log": "70517a1e6aa4ab207c3216b95fd0be5b470603df8342c7e183426df37702db23",
     "docs/validation/angles.log": "9551a92775d91ddadf0f7ac423db2afc8eb53c1628200c0453ea761be06ac6b9",
     "docs/validation/cordic-compile.log": "81c377e97d2b23dee6e5ac18ca24e141a1fb670108bf4cf0574088ab63c70d27",
@@ -28,6 +26,9 @@
     "lab1/winograd/src/weight_transform.v": "7a1bc6f1e90df542eb0566e0532cf431b86968a2780bb006633216d3b99df23f",
     "lab1/winograd/src/winograd_1d.v": "e8f79235b895540848ba9f021a6ecdb4322e3985da41a8d0d96f9bbf62074222",
     "lab1/winograd/src/winograd_1d_tb.v": "7cc330b427d5033cd94e5b936e57202bdec51eae2cb3ab8cf26a03a4ea4037e0",
-    "lab1/winograd_2d/src/winograd_2d.v": "e0287683dcc2a7cddcc0932f32aaf8fff4045d02522f65602133b04cef5ddf59"
-  }
+    "lab1/winograd_2d/src/winograd_2d.v": "e0287683dcc2a7cddcc0932f32aaf8fff4045d02522f65602133b04cef5ddf59",
+    "dist/Lab1_Report_team01.pdf": "cc96a9286ca9bd0ab0d1d2d9d2519bfc5b1ae4d918de85fe072be246c2e2568f",
+    "dist/Lab1_Report_team01.zip": "731b2b14527911c1925f1105dc06fd8f57bd2cc079020dd48f77592cff04232a"
+  },
+  "team": "team01"
 }
