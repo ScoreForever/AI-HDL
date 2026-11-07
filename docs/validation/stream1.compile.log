@@ -1,8 +1,8 @@
 /workspace/AI-HDL/lab1/winograd/src/input_transform.v:2: warning: timescale for input_transform inherited from another file.
 /workspace/AI-HDL/build/extended/stream1.sv:1: ...: The inherited timescale is here.
-/workspace/AI-HDL/lab1/winograd/src/winograd_1d.v:1: warning: timescale for winograd_1d inherited from another file.
-/workspace/AI-HDL/build/extended/stream1.sv:1: ...: The inherited timescale is here.
 /workspace/AI-HDL/lab1/winograd/src/output_transform.v:1: warning: timescale for output_transform inherited from another file.
 /workspace/AI-HDL/build/extended/stream1.sv:1: ...: The inherited timescale is here.
 /workspace/AI-HDL/lab1/winograd/src/weight_transform.v:2: warning: timescale for weight_transform inherited from another file.
+/workspace/AI-HDL/build/extended/stream1.sv:1: ...: The inherited timescale is here.
+/workspace/AI-HDL/lab1/winograd/src/winograd_1d.v:1: warning: timescale for winograd_1d inherited from another file.
 /workspace/AI-HDL/build/extended/stream1.sv:1: ...: The inherited timescale is here.

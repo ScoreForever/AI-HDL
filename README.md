@@ -1,5 +1,7 @@
 # AI-HDL：Lab 1
 
+2026-11-07 已重新核对官方文件并复跑全部测试。最新下载与提交操作见 [最终交付与操作步骤](docs/最终交付与操作步骤.md)。
+
 课程：[Lab 1 作业说明](https://aiarchpku.com/2026Fall/project/la1.html)。
 已实现三项必做任务和 2D Winograd Bonus。说明与报告均为中文。
 
