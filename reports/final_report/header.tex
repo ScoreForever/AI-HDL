@@ -1,0 +1,6 @@
+\usepackage{float}
+\floatplacement{figure}{H}
+\newcommand{\serverfigure}[2]{%
+\IfFileExists{figures/#1}{\begin{figure}[H]\centering
+\includegraphics[width=\linewidth,height=0.72\textheight,keepaspectratio]{figures/#1}
+\caption{#2}\end{figure}}{}}
